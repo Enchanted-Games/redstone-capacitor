@@ -1,0 +1,66 @@
+{
+  "variants" : {
+    "facing=north,powered=true,instant_charge=true": {
+      "y": 180,
+      "model": "redstone-capacitor:block/capacitor_instant_on"
+    },
+    "facing=east,powered=true,instant_charge=true": {
+      "y": 270,
+      "model": "redstone-capacitor:block/capacitor_instant_on"
+    },
+    "facing=south,powered=true,instant_charge=true": {
+      "model": "redstone-capacitor:block/capacitor_instant_on"
+    },
+    "facing=west,powered=true,instant_charge=true": {
+      "y": 90,
+      "model": "redstone-capacitor:block/capacitor_instant_on"
+    },
+    "facing=north,powered=true,instant_charge=false": {
+      "y": 180,
+      "model": "redstone-capacitor:block/capacitor_on"
+    },
+    "facing=east,powered=true,instant_charge=false": {
+      "y": 270,
+      "model": "redstone-capacitor:block/capacitor_on"
+    },
+    "facing=south,powered=true,instant_charge=false": {
+      "model": "redstone-capacitor:block/capacitor_on"
+    },
+    "facing=west,powered=true,instant_charge=false": {
+      "y": 90,
+      "model": "redstone-capacitor:block/capacitor_on"
+    },
+
+
+    "facing=north,powered=false,instant_charge=true": {
+      "y": 180,
+      "model": "redstone-capacitor:block/capacitor_instant"
+    },
+    "facing=east,powered=false,instant_charge=true": {
+      "y": 270,
+      "model": "redstone-capacitor:block/capacitor_instant"
+    },
+    "facing=south,powered=false,instant_charge=true": {
+      "model": "redstone-capacitor:block/capacitor_instant"
+    },
+    "facing=west,powered=false,instant_charge=true": {
+      "y": 90,
+      "model": "redstone-capacitor:block/capacitor_instant"
+    },
+    "facing=north,powered=false,instant_charge=false": {
+      "y": 180,
+      "model": "redstone-capacitor:block/capacitor"
+    },
+    "facing=east,powered=false,instant_charge=false": {
+      "y": 270,
+      "model": "redstone-capacitor:block/capacitor"
+    },
+    "facing=south,powered=false,instant_charge=false": {
+      "model": "redstone-capacitor:block/capacitor"
+    },
+    "facing=west,powered=false,instant_charge=false": {
+      "y": 90,
+      "model": "redstone-capacitor:block/capacitor"
+    }
+  }
+}

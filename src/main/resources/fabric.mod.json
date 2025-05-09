@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "redstone-capacitor",
+	"version": "${version}",
+	"name": "Redstone Capacitor",
+	"description": "This mod adds a capacitor-like redstone component, that charges up and then slowly releases its signal.",
+	"authors": [
+		"BurritoBandit28"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/user/BurritoBandit28",
+		"sources": "https://github.com/BurritoBandit28/redstone-capacitor",
+		"issues": "https://github.com/BurritoBandit28/redstone-capacitor/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/redstone-capacitor/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.burritobandit28.redstone_capacitor.RedstoneCapacitor"
+		],
+		"client": [
+			"io.github.burritobandit28.redstone_capacitor.RedstoneCapacitorClient"
+		]
+	},
+	"mixins": [
+		"redstone-capacitor.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
